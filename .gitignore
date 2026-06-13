@@ -1,0 +1,72 @@
+# Logs and diagnostic reports
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Compilation / Build outputs
+dist/
+dist-ssr/
+out/
+build/
+.next/
+.webpack/
+.parcel-cache
+
+# Debug / Coverage
+coverage/
+*.lcov
+.nyc_output/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.tsbuildinfo
+
+# Sensitive information (Environment variables, local credentials, API Keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+*.pem
+*.key
+
+# IDEs and Editors settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+db.db
+desktop.ini
+
+# Custom local/scratch folders (not to be shared)
+scratch/
+tmp/
+temp/
