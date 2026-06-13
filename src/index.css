@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbars and transitions */
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #F8F9FA;
+  color: #1C1C1C;
+  overflow-x: hidden;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom premium scrollbar for Cart Drawer items container */
+#cart-drawer-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+#cart-drawer-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#cart-drawer-body::-webkit-scrollbar-thumb {
+  background: #E4E4E7;
+  border-radius: 9999px;
+}
+
+#cart-drawer-body::-webkit-scrollbar-thumb:hover {
+  background: #D4D4D8;
+}
+
+/* Pulse keyframes for custom loading or tracker elements */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: .7;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+/* Add-to-cart flying item keyframes */
+@keyframes flyToCart {
+  0% {
+    transform: translate3d(var(--start-x), var(--start-y), 0) scale(1.2);
+    opacity: 1;
+  }
+  20% {
+    transform: translate3d(
+      var(--start-x),
+      calc(var(--start-y) - 40px),
+      0
+    ) scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(var(--end-x), var(--end-y), 0) scale(0.1);
+    opacity: 0.1;
+  }
+}
+
+.animate-fly-to-cart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  border: 2px solid #0c831f;
+  background-color: white;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 99999;
+  pointer-events: none;
+  animation: flyToCart 0.75s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes cartBounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.16);
+  }
+}
+
+.animate-cart-bounce {
+  animation: cartBounce 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
