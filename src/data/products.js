@@ -10,7 +10,7 @@ export const products = [
     weight: "500 ml",
     price: 27,
     time: "12 MINS",
-    image: "/images/milk.png",
+    image: "images/milk.png",
     description: "High-quality pasteurized toned fresh milk, packed with vitamins and calcium for your family's daily strength and nutrition.",
     ingredients: "Toned Milk, Vitamin A, Vitamin D",
     nutrition: { calories: "58 kcal", protein: "3.2 g", carbs: "4.7 g", fat: "3.0 g" }
@@ -24,7 +24,7 @@ export const products = [
     weight: "400 g",
     price: 45,
     time: "10 MINS",
-    image: "/images/bread.png",
+    image: "images/bread.png",
     description: "Baked to golden perfection with nutritious wheat grains. Soft, high-fiber sliced bread ideal for healthy morning sandwiches.",
     ingredients: "Whole Wheat Flour, Yeast, Sugar, Wheat Gluten, Malt Flour, Preservatives",
     nutrition: { calories: "246 kcal", protein: "8.5 g", carbs: "48.0 g", fat: "1.5 g" }
@@ -38,7 +38,7 @@ export const products = [
     weight: "100 g",
     price: 58,
     time: "9 MINS",
-    image: "/images/butter.png",
+    image: "images/butter.png",
     description: "Rich, creamy salted table butter crafted from pure milk fat. A classic companion to morning toast and culinary bakes.",
     ingredients: "Butterfat, Water, Salt, Milk Solids",
     nutrition: { calories: "722 kcal", protein: "0.6 g", carbs: "0.0 g", fat: "80.0 g" }
@@ -52,7 +52,7 @@ export const products = [
     weight: "6 units",
     price: 52,
     time: "12 MINS",
-    image: "/images/eggs.png",
+    image: "images/eggs.png",
     description: "Farm fresh brown eggs sourced from healthy layers. Nutrient-dense protein cells perfect for breakfasts, baking, or boiling.",
     ingredients: "Whole Eggs (Shell)",
     nutrition: { calories: "143 kcal", protein: "12.6 g", carbs: "0.7 g", fat: "9.5 g" }
@@ -66,7 +66,7 @@ export const products = [
     weight: "200 g",
     price: 85,
     time: "11 MINS",
-    image: "/images/paneer.png",
+    image: "images/paneer.png",
     description: "Soft, vacuum-packed premium fresh cottage cheese. High in milk protein and calcium, retaining a delicate melt-in-mouth texture.",
     ingredients: "Milk Solids, Citric Acid",
     nutrition: { calories: "265 kcal", protein: "18.3 g", carbs: "1.2 g", fat: "20.8 g" }
@@ -80,7 +80,7 @@ export const products = [
     weight: "400 g",
     price: 74,
     time: "10 MINS",
-    image: "/images/dahi.png",
+    image: "images/dahi.png",
     description: "Thick, creamy, and hygienic pasteurized curd prepared from high-quality milk. Contains essential calcium and proteins.",
     ingredients: "Pasteurized Double Toned Milk, Active Lactic Cultures",
     nutrition: { calories: "60 kcal", protein: "4.3 g", carbs: "1.5 g", fat: "1.5 g" }
@@ -94,7 +94,7 @@ export const products = [
     weight: "250 ml",
     price: 18,
     time: "9 MINS",
-    image: "/images/amul masti.png",
+    image: "images/amul masti.png",
     description: "Refreshing spiced buttermilk flavored with natural herbs, mint, and spices. A soothing standard beverage to beat the heat.",
     ingredients: "Water, Milk Solids, Salt, Spices, Condiments, Stabilizer",
     nutrition: { calories: "29 kcal", protein: "1.2 g", carbs: "2.0 g", fat: "1.8 g" }
@@ -108,7 +108,7 @@ export const products = [
     weight: "475 g",
     price: 185,
     time: "11 MINS",
-    image: "/images/corn flake.png",
+    image: "images/corn flake.png",
     description: "Crispy, golden flakes of sun-ripened corn. Nourishing breakfast cereal high in Iron, Vitamin C, and essential B Group Vitamins.",
     ingredients: "Milled Corn, Sugar, Barley Malt Extract, Iodized Salt, Vitamins, Minerals",
     nutrition: { calories: "378 kcal", protein: "7.0 g", carbs: "84.0 g", fat: "0.9 g" }
@@ -122,7 +122,7 @@ export const products = [
     weight: "200 g",
     price: 165,
     time: "10 MINS",
-    image: "/images/cheese slice.png",
+    image: "images/cheese slice.png",
     description: "Rich, creamy processed cheddar cheese slices. Perfectly portioned slices that melt beautifully in home burgers and sandwiches.",
     ingredients: "Cheese, Water, Milk Solids, Emulsifying Salts, Iodized Salt, Preservative",
     nutrition: { calories: "312 kcal", protein: "16.0 g", carbs: "2.0 g", fat: "26.0 g" }
@@ -136,7 +136,7 @@ export const products = [
     weight: "120 g",
     price: 60,
     time: "12 MINS",
-    image: "/images/yogart.png",
+    image: "images/yogart.png",
     description: "High-protein, low-fat Greek yogurt loaded with real delicious blueberries. Thick strained yogurt for a healthy snack option.",
     ingredients: "Double Toned Milk, Blueberry Fruit Preparation (Blueberry Fruit, Sugar, Water), Milk Solids, Active Cultures",
     nutrition: { calories: "98 kcal", protein: "6.0 g", carbs: "14.0 g", fat: "2.0 g" }
@@ -432,7 +432,7 @@ export const products = [
     weight: "1 kg",
     price: 60,
     time: "9 MINS",
-    image: "/images/banana.png",
+    image: "images/banana.png",
     description: "Premium quality Robusta bananas. Rich in potassium, dietary fibers, and natural sugars to boost your instant daily energy.",
     ingredients: "Fresh Bananas",
     nutrition: { calories: "89 kcal", protein: "1.1 g", carbs: "22.8 g", fat: "0.3 g" }
@@ -446,7 +446,7 @@ export const products = [
     weight: "500 g",
     price: 25,
     time: "10 MINS",
-    image: "/images/tomato.png",
+    image: "images/tomato.png",
     description: "Juicy, locally harvested hybrid red tomatoes. Firm texture and tangy flavor, rich in lycopene antioxidants and vitamin C.",
     ingredients: "Fresh Tomato",
     nutrition: { calories: "18 kcal", protein: "0.9 g", carbs: "3.9 g", fat: "0.2 g" }
@@ -460,7 +460,7 @@ export const products = [
     weight: "1 kg",
     price: 38,
     time: "12 MINS",
-    image: "/images/onion.png",
+    image: "images/onion.png",
     description: "Freshly harvested sharp and crisp red onions. A cooking staple across Indian households for curries, gravies, and fresh salads.",
     ingredients: "Fresh Red Onion",
     nutrition: { calories: "40 kcal", protein: "1.1 g", carbs: "9.3 g", fat: "0.1 g" }
@@ -474,7 +474,7 @@ export const products = [
     weight: "1 kg",
     price: 32,
     time: "10 MINS",
-    image: "/images/potato.png",
+    image: "images/potato.png",
     description: "Versatile, clean, and top-grade local potatoes. The ultimate cooking base for boiling, frying, baking, or curry integrations.",
     ingredients: "Fresh Potatoes",
     nutrition: { calories: "77 kcal", protein: "2.0 g", carbs: "17.0 g", fat: "0.1 g" }
@@ -488,7 +488,7 @@ export const products = [
     weight: "4 units",
     price: 140,
     time: "11 MINS",
-    image: "/images/apple.png",
+    image: "images/apple.png",
     description: "Crisp, tart, and highly refreshing green apples sourced from Shimla orchards. Rich in dietary fiber, vitamin C, and antioxidants.",
     ingredients: "Fresh Green Apples",
     nutrition: { calories: "52 kcal", protein: "0.3 g", carbs: "14.0 g", fat: "0.2 g" }
@@ -502,7 +502,7 @@ export const products = [
     weight: "1 kg",
     price: 98,
     time: "12 MINS",
-    image: "/images/orange.png",
+    image: "images/orange.png",
     description: "Sweet and juicy mandarin oranges handpicked from Nagpur. Easy to peel and packed with fresh Vitamin C and refreshing fiber.",
     ingredients: "Fresh Oranges",
     nutrition: { calories: "47 kcal", protein: "0.9 g", carbs: "12.0 g", fat: "0.1 g" }
@@ -516,7 +516,7 @@ export const products = [
     weight: "250 g",
     price: 40,
     time: "9 MINS",
-    image: "/images/lemon.png",
+    image: "images/lemon.png",
     description: "Zesty, juicy local yellow lemons. Highly acidic juice perfect for refreshing lemonades, garnishes, and daily cooking dressings.",
     ingredients: "Fresh Lemons",
     nutrition: { calories: "29 kcal", protein: "1.1 g", carbs: "9.0 g", fat: "0.3 g" }
@@ -530,7 +530,7 @@ export const products = [
     weight: "100 g",
     price: 15,
     time: "10 MINS",
-    image: "/images/dhaniya.png",
+    image: "images/dhaniya.png",
     description: "Fragrant, freshly plucked green coriander leaves. An essential aromatic garnish for Indian curries, soups, dals, and chutneys.",
     ingredients: "Fresh Coriander Leaves",
     nutrition: { calories: "23 kcal", protein: "2.1 g", carbs: "3.7 g", fat: "0.5 g" }
@@ -544,7 +544,7 @@ export const products = [
     weight: "250 g",
     price: 65,
     time: "11 MINS",
-    image: "/images/garlic.png",
+    image: "images/garlic.png",
     description: "Pungent and highly aromatic garlic bulbs. Offers immense health benefits and forms the baseline flavoring for global culinary dishes.",
     ingredients: "Fresh Garlic Bulbs",
     nutrition: { calories: "149 kcal", protein: "6.4 g", carbs: "33.0 g", fat: "0.5 g" }
@@ -558,7 +558,7 @@ export const products = [
     weight: "250 g",
     price: 48,
     time: "11 MINS",
-    image: "/images/ginger.png",
+    image: "images/ginger.png",
     description: "Fresh ginger roots with a sharp, hot flavor. Extensively used for soothing ginger teas and cooking ginger-garlic base pastes.",
     ingredients: "Fresh Ginger Roots",
     nutrition: { calories: "80 kcal", protein: "1.8 g", carbs: "18.0 g", fat: "0.8 g" }
@@ -854,7 +854,7 @@ export const products = [
     weight: "50 g",
     price: 20,
     time: "8 MINS",
-    image: "/images/lays.png",
+    image: "images/lays.png",
     description: "Crispy, golden potato chips seasoned with fine salt. The ultimate snack time standard for crispy, mouth-watering bites.",
     ingredients: "Potatoes, Edible Vegetable Oil, Salt",
     nutrition: { calories: "544 kcal", protein: "7.0 g", carbs: "52.0 g", fat: "34.0 g" }
@@ -868,7 +868,7 @@ export const products = [
     weight: "90 g",
     price: 30,
     time: "9 MINS",
-    image: "/images/kurkure.png",
+    image: "images/kurkure.png",
     description: "Crunchy corn-rice puffs seasoned with a rich spice mix blend. A popular tangy and spicy teatime snack companion.",
     ingredients: "Rice Meal, Corn Meal, Edible Vegetable Oil, Chickpea Flour, Spices, Condiments, Salt",
     nutrition: { calories: "558 kcal", protein: "5.8 g", carbs: "55.0 g", fat: "34.8 g" }
@@ -882,7 +882,7 @@ export const products = [
     weight: "120 g",
     price: 40,
     time: "10 MINS",
-    image: "/images/orea.png",
+    image: "images/orea.png",
     description: "Rich dark chocolate wafer cookies stuffed with double vanilla cream filling. Dip in milk for a classic sweet dessert experience.",
     ingredients: "Sugar, Unbleached Enriched Flour, Palm Oil, Cocoa, High Fructose Corn Syrup, Baking Soda, Salt, Soy Lecithin",
     nutrition: { calories: "480 kcal", protein: "4.0 g", carbs: "72.0 g", fat: "21.0 g" }
@@ -896,7 +896,7 @@ export const products = [
     weight: "150 g",
     price: 175,
     time: "9 MINS",
-    image: "/images/cadbury silk.png",
+    image: "images/cadbury silk.png",
     description: "Velvety, smooth milk chocolate bar crafted by Cadbury. Offers a premium melt-in-the-mouth texture for satisfying chocolate cravings.",
     ingredients: "Sugar, Milk Solids, Cocoa Butter, Cocoa Solids, Emulsifiers",
     nutrition: { calories: "532 kcal", protein: "7.8 g", carbs: "58.0 g", fat: "30.5 g" }
@@ -910,7 +910,7 @@ export const products = [
     weight: "350 g",
     price: 110,
     time: "9 MINS",
-    image: "/images/bhujia.png",
+    image: "images/bhujia.png",
     description: "Deep-fried spicy crisp gram flour noodles flavored with moth beans and local spices. Classic crunchy Indian snack standard.",
     ingredients: "Tepary Beans Flour, Gram Flour, Vegetable Oil, Salt, Mixed Spices (Black Pepper, Ginger, Cardamom, Clove)",
     nutrition: { calories: "579 kcal", protein: "10.0 g", carbs: "42.0 g", fat: "41.0 g" }
@@ -924,7 +924,7 @@ export const products = [
     weight: "90 g",
     price: 45,
     time: "8 MINS",
-    image: "/images/popcorn.png",
+    image: "images/popcorn.png",
     description: "Instant microwave popcorn with rich, savory butter flavor. Expands in minutes for a fresh, warm movie-theater popcorn experience at home.",
     ingredients: "Popping Corn, Edible Vegetable Oil, Iodized Salt, Butter, Beta-Carotene",
     nutrition: { calories: "490 kcal", protein: "8.0 g", carbs: "60.0 g", fat: "24.0 g" }
@@ -938,7 +938,7 @@ export const products = [
     weight: "200 g",
     price: 40,
     time: "10 MINS",
-    image: "/images/gooday.png",
+    image: "images/gooday.png",
     description: "Rich butter cookies loaded with crunchy real cashew nuts. Crispy biscuits with a delightful bite, perfect for tea dipping.",
     ingredients: "Wheat Flour, Sugar, Vegetable Fat, Cashew Nuts, Butter, Milk Solids, Leavening Agents, Salt",
     nutrition: { calories: "518 kcal", protein: "7.0 g", carbs: "66.0 g", fat: "25.0 g" }
@@ -952,7 +952,7 @@ export const products = [
     weight: "50 g",
     price: 50,
     time: "9 MINS",
-    image: "/images/snickers.png",
+    image: "images/snickers.png",
     description: "Satisfying candy bar containing roasted peanuts, nougat, and caramel, completely coated in rich milk chocolate.",
     ingredients: "Milk Chocolate, Peanuts, Corn Syrup, Sugar, Palm Oil, Cocoa",
     nutrition: { calories: "250 kcal", protein: "4.0 g", carbs: "33.0 g", fat: "12.0 g" }
@@ -966,7 +966,7 @@ export const products = [
     weight: "250 g",
     price: 30,
     time: "10 MINS",
-    image: "/images/parle G.png",
+    image: "images/parle G.png",
     description: "The classic Indian glucose biscuit enriched with milk and wheat. Offers instant energy and acts as the staple tea biscuit for millions.",
     ingredients: "Wheat Flour, Sugar, Vegetable Oil, Glucose Syrup, Milk Solids, Raising Agents, Salt",
     nutrition: { calories: "451 kcal", protein: "6.5 g", carbs: "78.0 g", fat: "12.5 g" }
@@ -980,7 +980,7 @@ export const products = [
     weight: "80 g",
     price: 20,
     time: "10 MINS",
-    image: "/images/bingo.png",
+    image: "images/bingo.png",
     description: "Triangle-shaped crispy corn tortilla chips coated with hot Indian pickle spices (Achar). Tangy and crunch-packed bites.",
     ingredients: "Rice Grits, Seasoning Mix (Spices, Salt, Acidity Regulators, Anticaking Agent), Corn Grits, Gram Grits",
     nutrition: { calories: "530 kcal", protein: "6.0 g", carbs: "61.0 g", fat: "29.0 g" }
@@ -1276,7 +1276,7 @@ export const products = [
     weight: "330 ml",
     price: 40,
     time: "10 MINS",
-    image: "/images/cocacola.png",
+    image: "images/cocacola.png",
     description: "The original carbonated refreshing beverage. Crack open a cold can of classic bubbly cola taste for instant refreshment.",
     ingredients: "Carbonated Water, Sugar, Caramel Color, Phosphoric Acid, Caffeine, Natural Flavors",
     nutrition: { calories: "139 kcal", protein: "0.0 g", carbs: "35.0 g", fat: "0.0 g" }
@@ -1290,7 +1290,7 @@ export const products = [
     weight: "750 ml",
     price: 45,
     time: "11 MINS",
-    image: "/images/pepsi.png",
+    image: "images/pepsi.png",
     description: "Bold and refreshing carbonated cola beverage in a medium plastic pet bottle. Serves cool carbonation to elevate meals.",
     ingredients: "Carbonated Water, Sugar, Acidity Regulator, Caffeine, Color, Flavors",
     nutrition: { calories: "320 kcal", protein: "0.0 g", carbs: "80.0 g", fat: "0.0 g" }
@@ -1304,7 +1304,7 @@ export const products = [
     weight: "250 ml",
     price: 125,
     time: "9 MINS",
-    image: "/images/redbull.png",
+    image: "images/redbull.png",
     description: "Red Bull Energy Drink is a functional beverage that vitalizes body and mind. High in taurine, caffeine, and B-group vitamins.",
     ingredients: "Carbonated Water, Sucrose, Glucose, Acidifier (Citric Acid), Taurine (0.4%), Caffeine (0.03%), Vitamins B3, B5, B6, B12",
     nutrition: { calories: "115 kcal", protein: "0.0 g", carbs: "28.0 g", fat: "0.0 g" }
@@ -1318,7 +1318,7 @@ export const products = [
     weight: "1 L",
     price: 130,
     time: "12 MINS",
-    image: "/images/real juice.png",
+    image: "images/real juice.png",
     description: "Rich, delicious blend of 9 active fruit juices: Apple, Mango, Peach, Apricot, Guava, Orange, Pineapple, Passionfruit, Banana.",
     ingredients: "Water, Mixed Fruit Juice Concentrate (12.5%), Sugar, Acidity Regulator, Vitamin C",
     nutrition: { calories: "56 kcal", protein: "0.1 g", carbs: "14.0 g", fat: "0.0 g" }
@@ -1332,7 +1332,7 @@ export const products = [
     weight: "1 L",
     price: 145,
     time: "12 MINS",
-    image: "/images/tropicana.png",
+    image: "images/tropicana.png",
     description: "100% pure squeezed orange juice with no added sugars, water, or preservatives. Clean morning breakfast companion.",
     ingredients: "Reconstituted Orange Juice (100% Squeezed)",
     nutrition: { calories: "45 kcal", protein: "0.7 g", carbs: "10.4 g", fat: "0.1 g" }
@@ -1346,7 +1346,7 @@ export const products = [
     weight: "750 ml",
     price: 45,
     time: "11 MINS",
-    image: "/images/sprite.png",
+    image: "images/sprite.png",
     description: "Sprite is a clear, lemon-lime carbonated soda. Highly refreshing, caffeine-free, and perfect to beat the summer heat.",
     ingredients: "Carbonated Water, Sugar, Citric Acid, Sodium Citrate, Natural Lemon & Lime Flavors",
     nutrition: { calories: "330 kcal", protein: "0.0 g", carbs: "82.5 g", fat: "0.0 g" }
@@ -1360,7 +1360,7 @@ export const products = [
     weight: "250 ml",
     price: 35,
     time: "10 MINS",
-    image: "/images/paper boat.png",
+    image: "images/paper boat.png",
     description: "Traditional mango nectar beverage crafted from ripe mango pulp. Contains rich, creamy mango sweetness with zero preservatives.",
     ingredients: "Mango Pulp (45%), Water, Sugar, Lemon Juice Concentrate, Natural Flavors",
     nutrition: { calories: "72 kcal", protein: "0.2 g", carbs: "18.0 g", fat: "0.0 g" }
@@ -1374,7 +1374,7 @@ export const products = [
     weight: "200 ml",
     price: 60,
     time: "9 MINS",
-    image: "/images/coconut water.png",
+    image: "images/coconut water.png",
     description: "100% natural, source-picked, double-filtered tender coconut water. Rich in natural electrolytes with no added sugar.",
     ingredients: "Natural Tender Coconut Water (100%)",
     nutrition: { calories: "22 kcal", protein: "0.1 g", carbs: "5.4 g", fat: "0.0 g" }
@@ -1388,7 +1388,7 @@ export const products = [
     weight: "500 ml",
     price: 50,
     time: "10 MINS",
-    image: "/images/gatorade blue.png",
+    image: "images/gatorade blue.png",
     description: "Isotonic sports drink containing key mineral electrolytes. Refuels and hydrates active athletes during intense physical workouts.",
     ingredients: "Water, Sugar, Rehydration Salts, Monopotassium Phosphate, Citric Acid, Flavoring, Brilliant Blue Color",
     nutrition: { calories: "24 kcal", protein: "0.0 g", carbs: "6.0 g", fat: "0.0 g" }
@@ -1402,7 +1402,7 @@ export const products = [
     weight: "330 ml",
     price: 40,
     time: "9 MINS",
-    image: "/images/thumps up.png",
+    image: "images/thumps up.png",
     description: "Strong, heavily carbonated cola beverage with a spicy punch kick. Highly carbonated to deliver high-octane refreshment.",
     ingredients: "Carbonated Water, Sugar, Acidity Regulators, Caffeine, Caramel Color, Natural Spice Extract Flavors",
     nutrition: { calories: "140 kcal", protein: "0.0 g", carbs: "35.0 g", fat: "0.0 g" }
@@ -1698,7 +1698,7 @@ export const products = [
     weight: "70 g",
     price: 14,
     time: "8 MINS",
-    image: "/images/maggie 2.png",
+    image: "images/maggie 2.png",
     description: "The classic 2-minute instant noodles containing the legendary tastemaker spice pouch. Quick, hot, and satisfying comfort food.",
     ingredients: "Wheat Flour, Palm Oil, Salt, Wheat Gluten, Calcium Carbonate. Tastemaker: Mixed Spices, Hydrolyzed Groundnut Protein, Noodle Powder, Onion Powder, Garlic Powder",
     nutrition: { calories: "427 kcal", protein: "8.0 g", carbs: "63.5 g", fat: "15.7 g" }
@@ -1712,7 +1712,7 @@ export const products = [
     weight: "280 g",
     price: 52,
     time: "9 MINS",
-    image: "/images/yippee.png",
+    image: "images/yippee.png",
     description: "Non-sticky, round block instant wheat noodles packed with real dehydrated vegetables and special magic spices.",
     ingredients: "Wheat Flour, Refined Palm Oil, Iodized Salt, Spices & Condiments, Dehydrated Vegetables (Carrot, Cabbage)",
     nutrition: { calories: "450 kcal", protein: "9.0 g", carbs: "67.0 g", fat: "16.0 g" }
@@ -1726,7 +1726,7 @@ export const products = [
     weight: "950 g",
     price: 145,
     time: "10 MINS",
-    image: "/images/tomato sause.png",
+    image: "images/tomato sause.png",
     description: "Tangy tomato ketchup prepared from 100% real handpicked red tomatoes. Perfect dip companion for hot fries and crispy pakoras.",
     ingredients: "Tomato Paste (28%), Water, Sugar, Salt, Acidity Regulators, Thickening Agents, Spices, Condiments",
     nutrition: { calories: "120 kcal", protein: "1.2 g", carbs: "28.5 g", fat: "0.1 g" }
@@ -1740,7 +1740,7 @@ export const products = [
     weight: "650 g",
     price: 220,
     time: "10 MINS",
-    image: "/images/harshey's.png",
+    image: "images/harshey's.png",
     description: "Rich, delicious chocolate flavor syrup. Drizzle on vanilla ice creams, milkshakes, waffles, or chocolate cakes.",
     ingredients: "High Fructose Corn Syrup, Corn Syrup, Water, Cocoa, Sugar, Preservatives, Salt, Xanthan Gum",
     nutrition: { calories: "270 kcal", protein: "2.0 g", carbs: "65.0 g", fat: "1.0 g" }
@@ -1754,7 +1754,7 @@ export const products = [
     weight: "1.25 kg",
     price: 320,
     time: "15 MINS",
-    image: "/images/maccain french fries.png",
+    image: "images/maccain french fries.png",
     description: "Premium frozen potato matchsticks. Fry or bake for a quick, golden-crispy french fry treat at home.",
     ingredients: "Potatoes (92%), Refined Vegetable Oil",
     nutrition: { calories: "140 kcal", protein: "2.5 g", carbs: "21.5 g", fat: "4.8 g" }
@@ -1768,7 +1768,7 @@ export const products = [
     weight: "500 g",
     price: 110,
     time: "12 MINS",
-    image: "/images/safal peas.png",
+    image: "images/safal peas.png",
     description: "Naturally sweet and tender green peas, preserved fresh at high freezing quality standards. No added color or artificial preservatives.",
     ingredients: "Fresh Green Peas (Frozen)",
     nutrition: { calories: "84 kcal", protein: "5.4 g", carbs: "14.4 g", fat: "0.4 g" }
@@ -1782,7 +1782,7 @@ export const products = [
     weight: "400 g",
     price: 85,
     time: "10 MINS",
-    image: "/images/chilli sauce.png",
+    image: "images/chilli sauce.png",
     description: "Unique combination of sweet tomatoes and hot red chillies. Formulates a spicy condiment dip for samosas and momos.",
     ingredients: "Water, Sugar, Tomato Paste (12%), Red Chilli Puree (6.5%), Salt, Acidity Regulators, Spices, Garlic, Onion",
     nutrition: { calories: "156 kcal", protein: "0.8 g", carbs: "38.0 g", fat: "0.2 g" }
@@ -1796,7 +1796,7 @@ export const products = [
     weight: "250 g",
     price: 89,
     time: "10 MINS",
-    image: "/images/funfoods mayoonise.png",
+    image: "images/funfoods mayoonise.png",
     description: "Rich, creamy, and 100% vegetarian eggless mayonnaise. The perfect spread base for home sandwiches, burgers, and thick wraps.",
     ingredients: "Refined Soyabean Oil, Water, Sugar, Lemon Juice, Emulsifying Agents, Mustard Powder, Salt",
     nutrition: { calories: "608 kcal", protein: "0.5 g", carbs: "10.0 g", fat: "63.0 g" }
@@ -1810,7 +1810,7 @@ export const products = [
     weight: "240 g",
     price: 60,
     time: "9 MINS",
-    image: "/images/ching's schezwan.png",
+    image: "images/ching's schezwan.png",
     description: "Hot and spicy Schezwan instant noodles. Spiced with fiery red chillies, ginger-garlic, and Chinese Schezwan spices.",
     ingredients: "Wheat Flour, Palm Oil, Salt, Schezwan Seasoning Pouch (Spices, Chilli Powder, Garlic, Soy Sauce, Flavor Enhancer)",
     nutrition: { calories: "420 kcal", protein: "8.0 g", carbs: "63.0 g", fat: "15.0 g" }
@@ -1824,7 +1824,7 @@ export const products = [
     weight: "53 g",
     price: 55,
     time: "9 MINS",
-    image: "/images/knorr soup.png",
+    image: "images/knorr soup.png",
     description: "Rich, savory classic tomato soup with crunchy croutons. Prepared from real handpicked red tomatoes in minutes.",
     ingredients: "Tomato Paste Powder, Sugar, Corn Starch, Wheat Flour, Refined Palm Oil, Salt, Croutons (Bread Cubes), Spices",
     nutrition: { calories: "360 kcal", protein: "5.5 g", carbs: "79.0 g", fat: "2.5 g" }

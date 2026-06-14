@@ -2,26 +2,25 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const GRID_CATEGORIES = [
-  { id: "dairy", name: "Dairy, Bread & Eggs", img: "/images/milk.png" },
-  { id: "fruits", name: "Fruits & Vegetables", img: "/images/banana.png" },
-  { id: "drinks", name: "Cold Drinks & Juices", img: "/images/cocacola.png" },
-  { id: "munchies", name: "Snacks & Munchies", img: "/images/lays.png" },
-  { id: "instant", name: "Breakfast & Instant Food", img: "/images/maggie 2.png" },
-  { id: "sweet", name: "Sweet Tooth", img: "/images/cadbury silk.png" },
-  { id: "bakery", name: "Bakery & Biscuits", img: "/images/gooday.png" },
-  { id: "tea", name: "Tea, Coffee & Milk Drinks", img: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=150&h=150&q=80" },
+  { id: "dairy", name: "Dairy, Bread & Eggs", img: "images/milk.png" },
+  { id: "fruits", name: "Fruits & Vegetables", img: "images/banana.png" },
+  { id: "drinks", name: "Cold Drinks & Juices", img: "images/cocacola.png" },
+  { id: "munchies", name: "Snacks & Munchies", img: "images/lays.png" },
+  { id: "instant", name: "Breakfast & Instant Food", img: "images/maggie 2.png" },
+  { id: "sweet", name: "Sweet Tooth", img: "images/cadbury silk.png" },
+  { id: "bakery", name: "Bakery & Biscuits", img: "images/gooday.png" },
   { id: "atta", name: "Atta, Rice & Dal", img: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=150&h=150&q=80" },
   { id: "masala", name: "Masala, Oil & More", img: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=150&h=150&q=80" },
-  { id: "sauces", name: "Sauces & Spreads", img: "/images/tomato sause.png" },
-  { id: "chicken", name: "Chicken, Meat & Fish", img: "/images/meat.png" },
+  { id: "sauces", name: "Sauces & Spreads", img: "images/tomato sause.png" },
+  { id: "chicken", name: "Chicken, Meat & Fish", img: "images/meat.png" },
   { id: "organic", name: "Organic & Healthy Living", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=150&h=150&q=80" },
-  { id: "baby", name: "Baby Care", img: "/images/baby care.png" },
+  { id: "baby", name: "Baby Care", img: "images/baby care.png" },
   { id: "pharma", name: "Pharma & Wellness", img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=150&h=150&q=80" },
-  { id: "cleaning", name: "Cleaning Essentials", img: "/images/cleaning.png" },
-  { id: "office", name: "Home & Office", img: "/images/home.png" },
+  { id: "cleaning", name: "Cleaning Essentials", img: "images/cleaning.png" },
+  { id: "office", name: "Home & Office", img: "images/home.png" },
   { id: "personal", name: "Personal Care", img: "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=150&h=150&q=80" },
   { id: "pet", name: "Pet Care", img: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=150&h=150&q=80" },
-  { id: "clothes", name: "Clothes & Fashion", img: "/images/clothes.png" }
+  { id: "clothes", name: "Clothes & Fashion", img: "images/clothes.png" }
 ];
 
 export default function CategoryGrid() {

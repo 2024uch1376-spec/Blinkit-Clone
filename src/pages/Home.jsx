@@ -121,7 +121,7 @@ export default function Home({
             </div>
             <div className="w-[35%] h-24 flex items-center justify-center">
               <img 
-                src="/images/baby care.png" 
+                src="images/baby care.png" 
                 alt="Baby Care" 
                 className="max-h-full max-w-full object-contain rounded-xl shadow-xs"
               />

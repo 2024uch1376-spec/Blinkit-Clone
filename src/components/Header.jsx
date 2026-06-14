@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import blinkitLogo from '../../images/blinkit main logo.png';
+import blinkitLogo from '../../public/images/blinkit main logo.png';
 import { products } from '../data/products';
 import SearchAutocompleteDropdown from './SearchAutocompleteDropdown';
 
